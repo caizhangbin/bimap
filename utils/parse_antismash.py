@@ -61,7 +61,7 @@ def extract_bgcs(genome_fasta):
         print(f"Error running antiSMASH: {e}")
         return 0
     finally:
-        # Clean up temporary directory
+        # Clean up temporary directory 
         shutil.rmtree(temp_dir, ignore_errors=True)
 
 
